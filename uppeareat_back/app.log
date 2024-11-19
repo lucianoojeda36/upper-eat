@@ -1,0 +1,978 @@
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[31merror[39m: Error fetching reservations: 
+Invalid `prisma.reservation.findMany()` invocation in
+/app/src/graphql/resolvers/reservationResolver.ts:16:55
+
+  13 );
+  14 
+  15 try {
+→ 16   const reservations = await prisma.reservation.findMany(
+The table `public.Reservation` does not exist in the current database. {"clientVersion":"5.22.0","code":"P2021","meta":{"modelName":"Reservation","table":"public.Reservation"},"name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.reservation.findMany()` invocation in\n/app/src/graphql/resolvers/reservationResolver.ts:16:55\n\n  13 );\n  14 \n  15 try {\n→ 16   const reservations = await prisma.reservation.findMany(\nThe table `public.Reservation` does not exist in the current database.\n    at $n.handleRequestError (/app/node_modules/@prisma/client/runtime/library.js:121:7315)\n    at $n.handleAndLogRequestError (/app/node_modules/@prisma/client/runtime/library.js:121:6623)\n    at $n.request (/app/node_modules/@prisma/client/runtime/library.js:121:6307)\n    at async l (/app/node_modules/@prisma/client/runtime/library.js:130:9633)"}
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[31merror[39m: Error fetching reservations: 
+Invalid `prisma.reservation.findMany()` invocation in
+/app/src/graphql/resolvers/reservationResolver.ts:16:55
+
+  13 );
+  14 
+  15 try {
+→ 16   const reservations = await prisma.reservation.findMany(
+The table `public.Reservation` does not exist in the current database. {"clientVersion":"5.22.0","code":"P2021","meta":{"modelName":"Reservation","table":"public.Reservation"},"name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.reservation.findMany()` invocation in\n/app/src/graphql/resolvers/reservationResolver.ts:16:55\n\n  13 );\n  14 \n  15 try {\n→ 16   const reservations = await prisma.reservation.findMany(\nThe table `public.Reservation` does not exist in the current database.\n    at $n.handleRequestError (/app/node_modules/@prisma/client/runtime/library.js:121:7315)\n    at $n.handleAndLogRequestError (/app/node_modules/@prisma/client/runtime/library.js:121:6623)\n    at $n.request (/app/node_modules/@prisma/client/runtime/library.js:121:6307)\n    at async l (/app/node_modules/@prisma/client/runtime/library.js:130:9633)"}
+[32minfo[39m: Creating reservation: Pablo, status=pending, date=2024-11-19 08:48, numberOfPeople=4
+[31merror[39m: Error creating reservation: 
+Invalid `prisma.reservation.create()` invocation in
+/app/src/graphql/resolvers/reservationResolver.ts:70:41
+
+  67 );
+  68 
+  69 try {
+→ 70   return await prisma.reservation.create(
+The table `public.Reservation` does not exist in the current database. {"clientVersion":"5.22.0","code":"P2021","meta":{"modelName":"Reservation","table":"public.Reservation"},"name":"PrismaClientKnownRequestError","stack":"PrismaClientKnownRequestError: \nInvalid `prisma.reservation.create()` invocation in\n/app/src/graphql/resolvers/reservationResolver.ts:70:41\n\n  67 );\n  68 \n  69 try {\n→ 70   return await prisma.reservation.create(\nThe table `public.Reservation` does not exist in the current database.\n    at $n.handleRequestError (/app/node_modules/@prisma/client/runtime/library.js:121:7315)\n    at $n.handleAndLogRequestError (/app/node_modules/@prisma/client/runtime/library.js:121:6623)\n    at $n.request (/app/node_modules/@prisma/client/runtime/library.js:121:6307)\n    at async l (/app/node_modules/@prisma/client/runtime/library.js:130:9633)"}
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 10 reservations
+[32minfo[39m: Deleting reservation with ID: 1
+[32minfo[39m: Deleting reservation with ID: 2
+[32minfo[39m: Creating reservation: Pablo Ojeda, status=pending, date=2024-11-23 09:11, numberOfPeople=4
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 3 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=cancelled, search=, startDate=null
+[32minfo[39m: Fetched 0 reservations
+[32minfo[39m: Fetching reservations with filters: status=cancelled, search=, startDate=null
+[32minfo[39m: Fetched 0 reservations
+[32minfo[39m: Fetching reservations with filters: status=cancelled, search=, startDate=null
+[32minfo[39m: Fetched 0 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Creating reservation: Fsfds, status=pending, date=2024-11-28 15:51, numberOfPeople=4
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 5 reservations
+[32minfo[39m: Fetched 5 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 79 reservations
+[32minfo[39m: Fetched 79 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 79 reservations
+[32minfo[39m: Fetched 79 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 5 reservations
+[32minfo[39m: Fetched 5 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 5 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 5 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 5 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 5 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 5 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 5 reservations
+[32minfo[39m: Fetched 5 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 5 reservations
+[32minfo[39m: Fetched 5 reservations
+[32minfo[39m: Creating reservation: 3444434, status=pending, date=2024-12-07 16:00, numberOfPeople=4
+[32minfo[39m: Creating reservation: Pablo Perez, status=pending, date=2024-11-22 17:04, numberOfPeople=4
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Fetching reservation with ID: 10
+[32minfo[39m: Fetching reservation with ID: 10
+[32minfo[39m: Fetching reservation with ID: 10
+[32minfo[39m: Fetching reservation with ID: 10
+[32minfo[39m: Fetching reservation with ID: 10
+[32minfo[39m: Updating reservation ID 10: pablo4, status=Confirmed, date=2024-11-28T17:44:00, numberOfPeople=4
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Fetching reservation with ID: 10
+[32minfo[39m: Fetching reservation with ID: 10
+[33mwarn[39m: Missing required fields
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Fetching reservation with ID: 10
+[32minfo[39m: Fetching reservation with ID: 10
+[32minfo[39m: Fetching reservation with ID: 10
+[32minfo[39m: Fetching reservation with ID: 10
+[32minfo[39m: Updating reservation ID 10: pepe, status=Confirmed, date=2024-11-28T20:44:00, numberOfPeople=1
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Creating reservation: Rrrrr, status=pending, date=2024-11-22 17:13, numberOfPeople=40
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservation with ID: 13
+[32minfo[39m: Fetching reservation with ID: 13
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Deleting reservation with ID: 12
+[32minfo[39m: Fetching reservation with ID: 13
+[32minfo[39m: Fetching reservation with ID: 13
+[32minfo[39m: Updating reservation ID 13: pablo rodriguez, status=Confirmed, date=2024-11-30T22:15, numberOfPeople=5
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 5 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=cancelled, search=, startDate=null
+[32minfo[39m: Fetched 0 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Creating reservation: New Reservation, status=active, date=2024-01-01, numberOfPeople=2
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=cancelled, search=, startDate=null
+[32minfo[39m: Fetched 0 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=r, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-20
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Creating reservation: Ana, status=pending, date=2024-11-20 18:46, numberOfPeople=4
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-20
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-20
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservation with ID: 20
+[32minfo[39m: Fetching reservation with ID: 20
+[32minfo[39m: Updating reservation ID 20: Ana, status=pending, date=2024-11-20T21:46:00, numberOfPeople=1
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-20
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-20
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservation with ID: 20
+[32minfo[39m: Fetching reservation with ID: 20
+[32minfo[39m: Updating reservation ID 20: Ana, status=pending, date=2024-11-21T00:46:00, numberOfPeople=5
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-20
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-20
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservation with ID: 20
+[32minfo[39m: Fetching reservation with ID: 20
+[32minfo[39m: Updating reservation ID 20: Ana, status=pending, date=2024-11-21T03:46:00, numberOfPeople=6
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-20
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-20
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Deleting reservation with ID: 20
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-20
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-20
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-20
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-20
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-20
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-20
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-20
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-20
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-20
+[32minfo[39m: Fetched 7 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 89 reservations
+[32minfo[39m: Fetched 89 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 29 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 89 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 33 reservations
+[32minfo[39m: Fetching reservations with filters: status=cancelled, search=, startDate=null
+[32minfo[39m: Fetched 0 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 33 reservations
+[32minfo[39m: Fetching reservation with ID: 13
+[32minfo[39m: Fetching reservation with ID: 13
+[32minfo[39m: Updating reservation ID 13: Casey Watsica, status=Canceled, date=2025-05-12T03:17:46, numberOfPeople=3
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 32 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 32 reservations
+[32minfo[39m: Fetching reservations with filters: status=cancelled, search=, startDate=null
+[32minfo[39m: Fetched 0 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 89 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[31merror[39m: Error fetching reservations: 
+Invalid `prisma.reservation.findMany()` invocation in
+/Users/lucianoojeda/Desktop/uppear_eat/uppeareat_back/src/graphql/resolvers/reservationResolver.ts:16:55
+
+  13 );
+  14 
+  15 try {
+→ 16   const reservations = await prisma.reservation.findMany(
+Database `restaurant_db` does not exist on the database server at `localhost:5432`. {"clientVersion":"5.22.0","name":"PrismaClientInitializationError","stack":"PrismaClientInitializationError: \nInvalid `prisma.reservation.findMany()` invocation in\n/Users/lucianoojeda/Desktop/uppear_eat/uppeareat_back/src/graphql/resolvers/reservationResolver.ts:16:55\n\n  13 );\n  14 \n  15 try {\n→ 16   const reservations = await prisma.reservation.findMany(\nDatabase `restaurant_db` does not exist on the database server at `localhost:5432`.\n    at $n.handleRequestError (/Users/lucianoojeda/Desktop/uppear_eat/uppeareat_back/node_modules/@prisma/client/runtime/library.js:121:7615)\n    at $n.handleAndLogRequestError (/Users/lucianoojeda/Desktop/uppear_eat/uppeareat_back/node_modules/@prisma/client/runtime/library.js:121:6623)\n    at $n.request (/Users/lucianoojeda/Desktop/uppear_eat/uppeareat_back/node_modules/@prisma/client/runtime/library.js:121:6307)\n    at async l (/Users/lucianoojeda/Desktop/uppear_eat/uppeareat_back/node_modules/@prisma/client/runtime/library.js:130:9633)"}
+[31merror[39m: Error fetching reservations: 
+Invalid `prisma.reservation.findMany()` invocation in
+/Users/lucianoojeda/Desktop/uppear_eat/uppeareat_back/src/graphql/resolvers/reservationResolver.ts:16:55
+
+  13 );
+  14 
+  15 try {
+→ 16   const reservations = await prisma.reservation.findMany(
+Database `restaurant_db` does not exist on the database server at `localhost:5432`. {"clientVersion":"5.22.0","name":"PrismaClientInitializationError","stack":"PrismaClientInitializationError: \nInvalid `prisma.reservation.findMany()` invocation in\n/Users/lucianoojeda/Desktop/uppear_eat/uppeareat_back/src/graphql/resolvers/reservationResolver.ts:16:55\n\n  13 );\n  14 \n  15 try {\n→ 16   const reservations = await prisma.reservation.findMany(\nDatabase `restaurant_db` does not exist on the database server at `localhost:5432`.\n    at $n.handleRequestError (/Users/lucianoojeda/Desktop/uppear_eat/uppeareat_back/node_modules/@prisma/client/runtime/library.js:121:7615)\n    at $n.handleAndLogRequestError (/Users/lucianoojeda/Desktop/uppear_eat/uppeareat_back/node_modules/@prisma/client/runtime/library.js:121:6623)\n    at $n.request (/Users/lucianoojeda/Desktop/uppear_eat/uppeareat_back/node_modules/@prisma/client/runtime/library.js:121:6307)\n    at async l (/Users/lucianoojeda/Desktop/uppear_eat/uppeareat_back/node_modules/@prisma/client/runtime/library.js:130:9633)"}
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=cancelled, search=, startDate=null
+[32minfo[39m: Fetched 0 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservation with ID: 14
+[32minfo[39m: Fetching reservation with ID: 14
+[32minfo[39m: Updating reservation ID 14: Benito Hayala, status=Canceled, date=2024-11-23T22:24:00, numberOfPeople=4
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservation with ID: 16
+[32minfo[39m: Fetching reservation with ID: 16
+[32minfo[39m: Updating reservation ID 16: sss, status=Canceled, date=2024-12-07T19:00:00, numberOfPeople=4
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 99 reservations
+[32minfo[39m: Fetched 99 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 99 reservations
+[32minfo[39m: Fetched 99 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 30 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 99 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 36 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Fetched 8 reservations
+[32minfo[39m: Creating reservation: Ewmlmrlpfmwlemflpmewlmflpwemflmelmflwemflwemlfmwefwefwwfwef, status=pending, date=2024-11-29 19:52, numberOfPeople=4
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 109 reservations
+[32minfo[39m: Fetched 109 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 32 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 109 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 41 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 36 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 32 reservations
+[32minfo[39m: Fetching reservation with ID: 3
+[32minfo[39m: Fetching reservation with ID: 3
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 32 reservations
+[32minfo[39m: Fetched 32 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 32 reservations
+[32minfo[39m: Fetched 32 reservations
+[32minfo[39m: Fetching reservation with ID: 6
+[32minfo[39m: Fetching reservation with ID: 6
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservation with ID: 6
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 119 reservations
+[32minfo[39m: Fetched 119 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 47 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 32 reservations
+[32minfo[39m: Fetching reservation with ID: 3
+[32minfo[39m: Fetching reservation with ID: 3
+[32minfo[39m: Updating reservation ID 3: Norma Oberbrunner DDS, status=Confirmed, date=2025-10-31T05:39:09, numberOfPeople=7
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 31 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 31 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=Norma, startDate=null
+[32minfo[39m: Fetched 0 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 119 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=Norma, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 47 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 119 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 47 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 119 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=Norma, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 47 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 119 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=Norma, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=pepe, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=sss, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=sss, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 129 reservations
+[32minfo[39m: Fetched 129 reservations
+[32minfo[39m: Fetching reservation with ID: 4
+[32minfo[39m: Fetching reservation with ID: 4
+[32minfo[39m: Updating reservation ID 4: Jonathan Ankunding, status=Canceled, date=2025-01-06T18:55:59, numberOfPeople=5
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 129 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 129 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=jonathan, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 51 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 129 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 34 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 129 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 51 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 44 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 34 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 129 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 51 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 34 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 51 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 129 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 51 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 44 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 34 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 44 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 34 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 4 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 139 reservations
+[32minfo[39m: Fetched 139 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 45 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 45 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 45 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 38 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 139 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 56 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 139 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 56 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 38 reservations
+[32minfo[39m: Fetching reservation with ID: 9
+[32minfo[39m: Fetching reservation with ID: 9
+[32minfo[39m: Updating reservation ID 9: Ronald Jones, status=Confirmed, date=2025-09-07T21:23:05, numberOfPeople=7
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 37 reservations
+[32minfo[39m: Fetched 37 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=ronald, startDate=null
+[32minfo[39m: Fetched 0 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=Ronald, startDate=null
+[32minfo[39m: Fetched 0 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=Ronald, startDate=null
+[32minfo[39m: Fetched 0 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=Ronald, startDate=null
+[32minfo[39m: Fetched 0 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 139 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=Ronald, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-21
+[32minfo[39m: Fetched 139 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 149 reservations
+[32minfo[39m: Fetched 149 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 59 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 41 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 149 reservations
+[32minfo[39m: Fetching reservation with ID: 5
+[32minfo[39m: Fetching reservation with ID: 5
+[32minfo[39m: Updating reservation ID 5: Frank Gerhold, status=Canceled, date=2025-06-23T03:18:50, numberOfPeople=5
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 149 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 149 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=Frank, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 59 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 48 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 42 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 149 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-21
+[32minfo[39m: Fetched 149 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-12-07
+[32minfo[39m: Fetched 145 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-12
+[32minfo[39m: Fetched 149 reservations
+[32minfo[39m: Deleting reservation with ID: 6
+[32minfo[39m: Fetching reservation with ID: 8
+[32minfo[39m: Fetching reservation with ID: 8
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-12
+[32minfo[39m: Fetched 148 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-12
+[32minfo[39m: Fetched 148 reservations
+[32minfo[39m: Creating reservation: Pablo Ramirez, status=pending, date=2024-11-21 20:07, numberOfPeople=5
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-12
+[32minfo[39m: Fetched 149 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-11-12
+[32minfo[39m: Fetched 149 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=pablo ramirez, startDate=2024-11-12
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 149 reservations
+[32minfo[39m: Fetched 149 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 159 reservations
+[32minfo[39m: Fetched 159 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 62 reservations
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 46 reservations
+[32minfo[39m: Fetching reservation with ID: 7
+[32minfo[39m: Fetching reservation with ID: 7
+[32minfo[39m: Updating reservation ID 7: Ms. Amelia Hane, status=Confirmed, date=2024-12-28T13:47:18, numberOfPeople=6
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=canceled, search=, startDate=null
+[32minfo[39m: Fetched 45 reservations
+[32minfo[39m: Fetched 45 reservations
+[32minfo[39m: Deleting reservation with ID: 12

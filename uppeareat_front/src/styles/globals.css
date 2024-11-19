@@ -1,0 +1,29 @@
+@import './components.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #b9b9b9;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: linear-gradient(
+      135deg,
+      rgba(244, 225, 161, 0.7),
+      rgba(212, 194, 149, 0.7)
+    ),
+    url('/images/wooden.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  font-family: 'Georgia', serif;
+}
