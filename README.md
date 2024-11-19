@@ -34,23 +34,25 @@ cd upper-eat
 
 #### Backend Dockerfile (./uppereat_back/Dockerfile)
 ```dockerfile
-FROM node:18
+FROM node:18-alpine
 WORKDIR /app
 COPY package*.json ./
-RUN npm install
+RUN npm install 
 COPY . .
-RUN npm run generate
 EXPOSE 4000
-CMD ["npm", "start"]
+CMD ["sh", "-c", "npx prisma migrate deploy && npx prisma db seed && npm run start"]
 ```
 
 #### Frontend Dockerfile (./uppereat_front/Dockerfile)
 ```dockerfile
-FROM node:18
+FROM node:18-alpine
 WORKDIR /app
 COPY package*.json ./
-RUN npm install
+COPY tsconfig.json ./
+RUN npm install next 
+RUN npm install 
 COPY . .
+RUN npm run build
 EXPOSE 3000
 CMD ["npm", "run", "dev"]
 ```

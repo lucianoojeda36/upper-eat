@@ -3,6 +3,14 @@ import logger from '../../utils/logger';
 
 const prisma = new PrismaClient();
 
+type Reservation = {
+  id: number;
+  name: string;
+  status: string;
+  date: Date;
+  numberOfPeople: number;
+};
+
 export const ReservationResolver = {
   Query: {
     reservations: async (_: any, args: any) => {
@@ -26,7 +34,7 @@ export const ReservationResolver = {
         });
 
         logger.info(`Fetched ${reservations.length} reservations`);
-        return reservations.map((reservation) => ({
+        return reservations.map((reservation: Reservation) => ({
           ...reservation,
           status: reservation.status.toLowerCase(),
         }));
