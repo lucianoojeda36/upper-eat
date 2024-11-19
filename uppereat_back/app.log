@@ -1086,3 +1086,74 @@ Database `restaurant_db` does not exist on the database server at `localhost:543
 [32minfo[39m: Apollo Server started successfully
 [32minfo[39m: GraphQL middleware applied to /graphql path
 [32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 190 reservations
+[32minfo[39m: Fetched 190 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 51 reservations
+[32minfo[39m: Creating reservation: Ppe, status=pending, date=2024-11-22 15:48, numberOfPeople=5
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 51 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 51 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=pepe, startDate=null
+[32minfo[39m: Fetched 0 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 191 reservations

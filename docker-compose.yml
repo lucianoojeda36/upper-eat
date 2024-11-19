@@ -11,6 +11,7 @@ services:
       - ./uppereat_back:/app
     depends_on:
       - db
+    restart: always
 
   upper_eat_front:
     build:
@@ -19,6 +20,8 @@ services:
       - "3000:3000"
     volumes:
       - ./uppereat_front:/app
+      - /app/node_modules 
+    restart: always
 
   db:
     image: postgres:15
@@ -31,6 +34,7 @@ services:
       - "5433:5432"
     volumes:
       - db_data:/var/lib/postgresql/data
+    restart: always
 
 volumes:
   db_data:
