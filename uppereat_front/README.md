@@ -4,15 +4,15 @@
 UpperEat is a modern web application built with Next.js, React, and TypeScript, utilizing GraphQL for data fetching and Redux for state management.
 
 ## Prerequisites
-- Node.js (v18 or higher)
+- Node.js (v20 or higher)
 - npm or yarn
 
 ## Setup and Installation
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
-cd uppereat_front
+git clone https://github.com/lucianoojeda36/upper-eat.git
+cd uppereat/uppereat_front
 ```
 
 ### 2. Install Dependencies
@@ -21,7 +21,7 @@ npm install
 ```
 
 ## Available Scripts
-- `npm run dev`: Start development server with Turbopack
+- `npm run dev`: Start development server
 - `npm run build`: Create production build
 - `npm start`: Run production build
 - `npm run lint`: Run ESLint

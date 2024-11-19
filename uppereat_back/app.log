@@ -1195,3 +1195,13 @@ Database `restaurant_db` does not exist on the database server at `localhost:543
 [32minfo[39m: Fetched 50 reservations
 [32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
 [32minfo[39m: Fetched 10 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 20 reservations
+[32minfo[39m: Fetched 20 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 7 reservations
