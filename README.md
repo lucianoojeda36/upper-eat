@@ -1,46 +1,90 @@
-# Proyecto Uppeareat
+# Proyecto uppereat
 
 Este proyecto consta de un backend y un frontend para gestionar las reservas de un restaurante, con una base de datos PostgreSQL. El entorno de desarrollo se maneja a través de Docker para facilitar el despliegue y la administración de los servicios.
 
-## Estructura del Proyecto
+# UpperEat - Docker Compose Setup
 
-- **Backend**: API RESTful que maneja las operaciones relacionadas con las reservas del restaurante.
-- **Frontend**: Interfaz de usuario para interactuar con las reservas.
-- **Base de Datos (DB)**: Un contenedor de PostgreSQL para almacenar los datos de las reservas.
+## Prerequisites
+- Docker
+- Docker Compose
+- Git
 
-## Tecnologías
+## Project Structure
+```
+/
+├── uppereat_back/     # Backend project
+│   ├── Dockerfile
+│   └── ...
+├── uppereat_front/    # Frontend project
+│   ├── Dockerfile
+│   └── ...
+├── docker-compose.yml  # Docker Compose configuration
+└── README.md
+```
 
-- **Backend**: Node.js, Graphql, Prisma
-- **Frontend**: React.js
-- **Base de Datos**: PostgreSQL
-- **Contenedores**: Docker, Docker Compose
+## Setup Instructions
 
-## Requisitos
+### 1. Clone Repository
+```bash
+git clone https://github.com/lucianoojeda36/upper-eat.git
+cd upper-eat
+```
 
-Para ejecutar este proyecto, necesitarás tener instalados los siguientes programas en tu máquina:
+### 2. Create Dockerfiles
 
-- **Docker**: Para crear y gestionar contenedores.
-- **Docker Compose**: Para orquestar múltiples contenedores y servicios.
+#### Backend Dockerfile (./uppereat_back/Dockerfile)
+```dockerfile
+FROM node:18
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+RUN npm run generate
+EXPOSE 4000
+CMD ["npm", "start"]
+```
 
-### Instalación de Docker y Docker Compose
+#### Frontend Dockerfile (./uppereat_front/Dockerfile)
+```dockerfile
+FROM node:18
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+EXPOSE 3000
+CMD ["npm", "run", "dev"]
+```
 
-1. **Docker**: [Instalar Docker](https://docs.docker.com/get-docker/)
-2. **Docker Compose**: [Instalar Docker Compose](https://docs.docker.com/compose/install/)
+### 3. Environment Configuration
+Review and adjust `.env` files in backend and frontend as needed.
 
-## Configuración de la Base de Datos
+### 4. Start Services
+```bash
+docker-compose up --build
+```
 
-El contenedor de la base de datos PostgreSQL está configurado con las siguientes variables de entorno:
+## Services
+- Backend: `http://localhost:4000`
+- Frontend: `http://localhost:3000`
+- Database: `postgresql://localhost:5433`
 
-- `POSTGRES_USER`: Usuario para la base de datos.
-- `POSTGRES_PASSWORD`: Contraseña para el usuario.
-- `POSTGRES_DB`: Nombre de la base de datos.
+## Database Management
+- User: `lucianoojeda`
+- Password: `Cosmefulanito12`
+- Database: `restaurant_db`
 
-Estas variables se encuentran definidas en el archivo `docker-compose.yml` y se usan para crear la base de datos automáticamente cuando se levanta el contenedor.
+## Development Workflow
+- Code changes automatically sync via volumes
+- Backend: Hot reloading with `ts-node`
+- Frontend: Turbopack development server
+- Database persists data between container restarts
 
-### Variables de Entorno
+## Stopping Services
+```bash
+docker-compose down
+```
 
-Asegúrate de que las siguientes variables de entorno estén correctamente configuradas:
-
-- **`DATABASE_URL`**: URL de la base de datos para el backend, configurada como:
-  ```bash
-  postgresql://lucianoojeda:Cosmefulanito12@db:5432/restaurant_db
+## Troubleshooting
+- Ensure no conflicting services on ports 3000, 4000, 5433
+- Check Docker and Docker Compose versions
+- Verify network connectivity

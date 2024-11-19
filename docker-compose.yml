@@ -1,24 +1,24 @@
 services:
-  uppear_eat_back:
+  upper_eat_back:
     build:
-      context: ./uppeareat_back
+      context: ./uppereat_back
     ports:
       - "4000:4000" 
     environment:
       - DATABASE_URL=postgresql://lucianoojeda:Cosmefulanito12@db:5432/restaurant_db
       - PORT=4000
     volumes:
-      - ./uppeareat_back:/app
+      - ./uppereat_back:/app
     depends_on:
       - db
 
-  uppear_eat_front:
+  upper_eat_front:
     build:
-      context: ./uppeareat_front
+      context: ./uppereat_front
     ports:
       - "3000:3000"
     volumes:
-      - ./uppeareat_front:/app
+      - ./uppereat_front:/app
 
   db:
     image: postgres:15

@@ -7,28 +7,33 @@ interface StatusChipsProps {
   options: { label: string; value: string }[];
 }
 
-type Status = 'Pending' | 'Confirmed' | 'Canceled' | 'Default';
+type Status = 'pending' | 'confirmed' | 'completed' | 'canceled' | 'default';
 
 const statusColors: Record<
   Status,
   { border: string; bg: string; text: string }
 > = {
-  Pending: {
+  pending: {
     border: 'border-yellow-500',
     bg: 'bg-yellow-100',
     text: 'text-yellow-500',
   },
-  Confirmed: {
+  confirmed: {
     border: 'border-green-500',
     bg: 'bg-green-100',
     text: 'text-green-500',
   },
-  Canceled: {
+  completed: {
+    border: 'border-blue-500',
+    bg: 'bg-blue-100',
+    text: 'text-blue-500',
+  },
+  canceled: {
     border: 'border-red-500',
     bg: 'bg-red-100',
     text: 'text-red-500',
   },
-  Default: {
+  default: {
     border: 'border-gray-300',
     bg: 'bg-gray-200',
     text: 'text-gray-700',
@@ -44,7 +49,7 @@ const StatusChipButton: React.FC<StatusChipsProps> = ({
   const [hoveredStatus, setHoveredStatus] = useState<string | null>(null);
 
   const getStatusColors = (status: string) => {
-    return statusColors[status as Status] || statusColors.Default;
+    return statusColors[status as Status] || statusColors.default;
   };
 
   const handleMouseEnter = (status: string) => setHoveredStatus(status);

@@ -46,6 +46,7 @@ const Filters = memo(
             { value: '', label: 'All Statuses' },
             { value: 'pending', label: 'Pending' },
             { value: 'confirmed', label: 'Confirmed' },
+            { value: 'completed', label: 'Completed' },
             { value: 'canceled', label: 'Canceled' },
           ]}
           value={filterStatus}

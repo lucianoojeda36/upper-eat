@@ -1,7 +1,7 @@
 # UpperEat Backend
 
 ## Project Overview
-UpperEat is a backend application built with TypeScript, Express, Apollo Server, and Prisma ORM for database management.
+UpperEat is a backend application built with TypeScript, Graphql, Apollo Server, and Prisma ORM for database management.
 
 ## Prerequisites
 - Node.js (v14 or higher)
@@ -12,8 +12,8 @@ UpperEat is a backend application built with TypeScript, Express, Apollo Server,
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
-cd uppeareat_back
+git clone https://github.com/lucianoojeda36/upper-eat.git
+cd uppereat/uppereat_back
 ```
 
 ### 2. Install Dependencies
@@ -37,11 +37,12 @@ npm run generate
 npm run migrate
 ```
 
-### 5. Seed Database (Optional)
+### 5. Seed Database
+Uses `@faker-js/faker` to generate realistic mock data for development and testing.
 ```bash
 npx prisma db seed 
-
-also can use npm start to seed the database
+# or
+npm start
 ```
 
 ## Available Scripts
@@ -59,6 +60,7 @@ also can use npm start to seed the database
 - Prisma ORM
 - Jest (Testing)
 - PostgreSQL
+- @faker-js/faker (Data Generation)
 
 ## Project Structure
 ```

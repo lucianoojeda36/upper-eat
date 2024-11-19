@@ -14,6 +14,7 @@ async function main() {
         status: faker.helpers.arrayElement([
           'Pending',
           'Confirmed',
+          'Completed',
           'Canceled',
         ]),
         date: faker.date.future(),

@@ -110,9 +110,10 @@ const EditReservationForm: React.FC = () => {
   };
 
   const statusOptions = [
-    { label: 'Pending', value: 'Pending' },
-    { label: 'Confirmed', value: 'Confirmed' },
-    { label: 'Canceled', value: 'Canceled' },
+    { label: 'Pending', value: 'pending' },
+    { label: 'Confirmed', value: 'confirmed' },
+    { label: 'Completed', value: 'completed' },
+    { label: 'Canceled', value: 'canceled' },
   ];
 
   if (loading) return <div>Loading...</div>;

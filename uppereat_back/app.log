@@ -976,3 +976,79 @@ Database `restaurant_db` does not exist on the database server at `localhost:543
 [32minfo[39m: Fetched 45 reservations
 [32minfo[39m: Fetched 45 reservations
 [32minfo[39m: Deleting reservation with ID: 12
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=completed, search=, startDate=null
+[32minfo[39m: Fetched 0 reservations
+[32minfo[39m: Fetching reservations with filters: status=confirmed, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservation with ID: 15
+[32minfo[39m: Fetching reservation with ID: 15
+[32minfo[39m: Fetching reservation with ID: 15
+[32minfo[39m: Updating reservation ID 15: Fsfds, status=Completed, date=2024-11-28T18:51:00, numberOfPeople=4
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=completed, search=, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 3 reservations
+[32minfo[39m: Fetching reservations with filters: status=completed, search=, startDate=null
+[32minfo[39m: Fetched 1 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservation with ID: 17
+[32minfo[39m: Fetching reservation with ID: 17
+[32minfo[39m: Updating reservation ID 17: Pablo Perez, status=completed, date=2024-11-22T20:04:00, numberOfPeople=4
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Starting Apollo Server...
+[32minfo[39m: Apollo Server started successfully
+[32minfo[39m: GraphQL middleware applied to /graphql path
+[32minfo[39m: Server is running on http://localhost:4000/graphql
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 10 reservations
+[32minfo[39m: Fetched 10 reservations
+[32minfo[39m: Fetching reservations with filters: status=completed, search=, startDate=null
+[32minfo[39m: Fetched 2 reservations
+[32minfo[39m: Deleting reservation with ID: 9
+[32minfo[39m: Fetching reservation with ID: 10
+[32minfo[39m: Fetching reservation with ID: 10
+[32minfo[39m: Updating reservation ID 10: Brooke Jones, status=pending, date=2025-03-20T18:11:35, numberOfPeople=10
+[32minfo[39m: Fetching reservations with filters: status=completed, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=completed, search=, startDate=null
+[32minfo[39m: Fetched 0 reservations
+[32minfo[39m: Fetched 0 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 3 reservations
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetching reservations with filters: status=pending, search=, startDate=null
+[32minfo[39m: Fetched 3 reservations
+[32minfo[39m: Fetched 3 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=null
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Fetching reservations with filters: status=, search=, startDate=2024-12-06
+[32minfo[39m: Fetched 9 reservations
+[32minfo[39m: Deleting reservation with ID: 2

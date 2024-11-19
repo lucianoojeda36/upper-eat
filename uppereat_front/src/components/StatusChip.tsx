@@ -14,6 +14,11 @@ const statusColors: Record<
     bg: 'bg-green-100',
     text: 'text-green-500',
   },
+  completed: {
+    border: 'border-blue-500',
+    bg: 'bg-blue-100',
+    text: 'text-blue-500',
+  },
   canceled: {
     border: 'border-red-500',
     bg: 'bg-red-100',
